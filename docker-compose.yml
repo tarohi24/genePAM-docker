@@ -1,0 +1,5 @@
+jre:
+    image: oracle/serverjre:9
+
+python:
+    image: python:3.6.4-jessie
