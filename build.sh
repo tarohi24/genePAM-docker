@@ -1,5 +1,5 @@
 #!/bin/sh
-cd java-9/
+cd java-9
 sh build.sh
-cd ../
-dokcer-compose build
+cd ..
+docker build -t tarohi24/genepam:1 .
